@@ -1,0 +1,81 @@
+body
+		{
+			margin:0;
+			padding:0;
+			font-family:Tahoma;
+			font-size:16px;
+		}
+		#pageTopWrap
+		{
+			width:1000px;
+			height:100px;
+			background-color:#050505;
+			margin:0 auto;
+			border-radius:3px;			
+		}
+		#pageTop > #pageTopWrap >#pageTopLogo >a >img
+		{
+			float:left;
+			width:50px;
+			height:50px;
+			padding:5px;
+		}
+		#pageTop > #pageTopWrap >#pageTopRest
+		{
+			width:892px;
+			height:100px;
+			float:left;
+		}
+		#pageTop > #pageTopWrap >#pageTopRest> #menu1
+		{
+			height:47px;
+			
+		}
+		#pageTop > #pageTopWrap >#pageTopRest> #menu1 > div
+		{
+			float:right;
+			margin:5px;
+			text-decoration:none;
+		}
+		#pageTop > #pageTopWrap >#pageTopRest> #menu1 > div > a
+		{
+			text-decoration:none;
+			color:#CCC;
+		}
+		#pageTop > #pageTopWrap >#pageTopRest> #menu1 > div > a:hover
+		{
+			color:#C0E73D;	
+		}
+		#pageTop > #pageTopWrap >#pageTopRest> #menu2 
+		{
+			height:47px;
+			
+
+		}
+		#pageTop > #pageTopWrap >#pageTopRest> #menu2 > a
+		{
+			color:#CCC;
+			margin-right:50px;
+			display:block;
+			float:left;
+			text-decoration:none;
+		}
+		#pageTop > #pageTopWrap >#pageTopRest> #menu2 > a:hover
+		{
+			color:#C0E73D;	
+		}
+		.clear
+		{
+			clear:both;
+		}
+		#pageMiddle
+		{
+			height:900px;
+			margin:0 auto;
+			width:1000px;
+		}
+		#pageBottom
+		{
+			
+			text-align:center;
+		}
